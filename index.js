@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 8001;
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'Hello, You deployed your server to ec2 successfully. Is it working?',
+    message:
+      'Hello, You deployed your server to ec2 successfully. Is it working?  Abbas bhai Zindabad',
   });
 });
 
